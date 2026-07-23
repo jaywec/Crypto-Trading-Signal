@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crypto signal dashboard</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, sans-serif; background: #F1EFE8; margin: 0; padding: 32px; color: #2C2C2A; }
+  .container { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 22px; font-weight: 500; margin: 0 0 4px; }
+  .subtitle { font-size: 13px; color: #5F5E5A; margin: 0 0 24px; }
+  .warning { background: #FAEEDA; color: #633806; padding: 12px 16px; border-radius: 8px; font-size: 13px; margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { background: #FFFFFF; border-radius: 12px; border: 1px solid #D3D1C7; padding: 18px 20px; }
+  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  .symbol { font-weight: 500; font-size: 16px; }
+  .price { font-size: 24px; font-weight: 500; margin: 0 0 6px; }
+  .confidence { font-size: 12px; color: #5F5E5A; margin: 0 0 10px; }
+  .reasoning { font-size: 13px; line-height: 1.5; color: #444441; margin: 0 0 14px; }
+  .divider { border-top: 1px solid #E5E3DA; margin: 10px 0; }
+  .detail-row { display: flex; justify-content: space-between; font-size: 12px; padding: 4px 0; gap: 12px; }
+  .detail-row .label { color: #5F5E5A; flex-shrink: 0; }
+  .detail-row .value { text-align: right; color: #2C2C2A; }
+  .detail-row.risk .value { color: #791F1F; }
+  .footer { margin-top: 24px; font-size: 12px; color: #888780; text-align: center; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Crypto signal dashboard</h1>
+  <p class="subtitle">Generated 2026-07-23 14:26:18 · 4h candles · provider: gemini</p>
+  <div class="warning">These are AI-generated suggestions to inform your own decision, not instructions to act on automatically. Review each one, size positions according to your own risk tolerance, and execute trades manually on your exchange.</div>
+  <div class="grid">
+    
+    <div class="card">
+      <div class="card-header">
+        <span class="symbol">BTC/USDT</span>
+        <span style="font-size:12px;background:#E6F1FB;color:#0C447C;padding:4px 12px;border-radius:6px;font-weight:500;">HOLD</span>
+      </div>
+      <p class="price">$65,664.76</p>
+      <p class="confidence">Confidence: Medium</p>
+      <p class="reasoning">While short-</p>
+      <div class="divider"></div>
+      <div class="detail-row"><span class="label">Stop-loss</span><span class="value">—</span></div>
+      <div class="detail-row"><span class="label">Take-profit</span><span class="value">—</span></div>
+      <div class="detail-row risk"><span class="label">Key risk</span><span class="value">—</span></div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <span class="symbol">ETH/USDT</span>
+        <span style="font-size:12px;background:#E6F1FB;color:#0C447C;padding:4px 12px;border-radius:6px;font-weight:500;">HOLD</span>
+      </div>
+      <p class="price">$1,923.80</p>
+      <p class="confidence">Confidence: Medium</p>
+      <p class="reasoning">The</p>
+      <div class="divider"></div>
+      <div class="detail-row"><span class="label">Stop-loss</span><span class="value">—</span></div>
+      <div class="detail-row"><span class="label">Take-profit</span><span class="value">—</span></div>
+      <div class="detail-row risk"><span class="label">Key risk</span><span class="value">—</span></div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-header">
+        <span class="symbol">SOL/USDT</span>
+        <span style="font-size:12px;background:#E6F1FB;color:#0C447C;padding:4px 12px;border-radius:6px;font-weight:500;">HOLD</span>
+      </div>
+      <p class="price">$77.43</p>
+      <p class="confidence">Confidence: Medium</p>
+      <p class="reasoning">SOL is experiencing</p>
+      <div class="divider"></div>
+      <div class="detail-row"><span class="label">Stop-loss</span><span class="value">—</span></div>
+      <div class="detail-row"><span class="label">Take-profit</span><span class="value">—</span></div>
+      <div class="detail-row risk"><span class="label">Key risk</span><span class="value">—</span></div>
+    </div>
+    
+  </div>
+  <p class="footer">Not financial advice. Past performance and technical indicators do not guarantee future results.</p>
+</div>
+</body>
+</html>
